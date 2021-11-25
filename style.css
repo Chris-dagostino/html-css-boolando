@@ -3,6 +3,7 @@
 .container {
     width: 80%;
     margin: 50px auto;
+    display: inline;
 }
 
 /*inizio riga*/
@@ -11,11 +12,13 @@
     margin: 40px 0px;
 }
 
+
 /*inizio prodotto*/
 
 .product {
     display: inline-block;
     position: relative;
+    margin: 20px;
 }
 
 .like {
@@ -30,7 +33,10 @@
 .cuore {
     color: #000;
     font-size: 50px;
-    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .dettagli {
@@ -72,6 +78,11 @@
 .originale:after, .sconto:after {
     content: '\20AC';
 }
+
+.marca {
+    margin-top: 5px;
+}
+
 
 /*fine prodotto*/
 
