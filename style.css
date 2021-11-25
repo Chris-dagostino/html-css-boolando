@@ -69,8 +69,8 @@
     text-decoration: line-through;
 }
 
-.originale::after {
-    content: '&#xf153;';
+.originale:after, .sconto:after {
+    content: '\20AC';
 }
 
 /*fine prodotto*/
