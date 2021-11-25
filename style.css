@@ -44,6 +44,7 @@
     font-size: 100%;
     color: rgb(255, 255, 255);
     padding: 3px;
+    font-weight: bold;
 }
 
 .sostenibilità {
@@ -51,8 +52,26 @@
     font-size: 100%;
     color: rgb(255, 255, 255);
     padding: 3px;
+    font-weight: bold;
 }
 
+.dress {
+    font-size: large;
+    font-weight: bold;
+}
+
+.originale {
+    color: red;
+    font-weight: bold;
+}
+
+.sconto {
+    text-decoration: line-through;
+}
+
+.originale::after {
+    content: '&#xf153;';
+}
 
 /*fine prodotto*/
 
