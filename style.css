@@ -2,6 +2,7 @@
 
 .container {
     width: 80%;
+    height: 80px;
     margin: 50px auto;
     display: inline;
 }
@@ -19,6 +20,7 @@
     display: inline-block;
     position: relative;
     margin: 20px;
+    width: 30%;
 }
 
 .like {
@@ -83,6 +85,21 @@
     margin-top: 5px;
 }
 
+.img-container:hover .img1 {
+    display: none;
+}
+
+.img-container:hover .img2 {
+    display: block;
+}
+
+.img2 {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
 
 /*fine prodotto*/
 
