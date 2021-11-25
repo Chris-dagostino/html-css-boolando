@@ -1,0 +1,24 @@
+/*inizio corpo riga*/
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+/*inizio riga*/
+
+.row {
+    margin: 40px 0px;
+}
+
+/*inizio prodotto*/
+
+.product {
+    display: inline-block;
+    position: relative;
+}
+/*fine prodotto*/
+
+/*fine riga*/
+
+/*fine corpo riga*/
