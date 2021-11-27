@@ -23,6 +23,10 @@
     width: 30%;
 }
 
+.img-container {
+    position: relative;
+}
+
 .like {
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -35,7 +39,7 @@
 .dettagli {
     position: absolute;
     left: 0px;
-    bottom: 80px;
+    bottom: 25px;
 }
 
 .dettagli .discount {
